@@ -1,0 +1,22 @@
+batteryCharger
+--------------
+
+This python script uses a lab power supply that is controlled using sigrok. The cell temperature is supervised using a USB temperature sensor. Th script can run on a RaspberryPi.
+For Lithium Ion Batteries the constant current - constant voltage (CC-CV) charging method is used. The charging ends if the cell heats up to much or if the charging current drops below the configured limit. The charging current can also be configured.
+For Ni-MH Cells the charging voltage is monitored for a drop in voltage.
+
+LICENSE
+-------
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License version 2
+as published by the Free Software Foundation.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along
+with this program; if not, see <http://www.gnu.org/licenses/>
+
